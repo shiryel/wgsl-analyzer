@@ -55,8 +55,8 @@ impl Default for DiagnosticsConfig {
         Self {
             enabled: true,
             type_errors: true,
-            naga_parsing_errors: true,
-            naga_validation_errors: true,
+            naga_parsing_errors: false,
+            naga_validation_errors: false,
             naga_version: NagaVersion::Naga22,
         }
     }
