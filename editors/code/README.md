@@ -217,8 +217,8 @@ You can also additionally enable diagnostics for naga parsing errors.
 ```json
 {
 	"wgsl-analyzer.diagnostics.typeErrors": true,
-	"wgsl-analyzer.diagnostics.nagaParsing": false,
-	"wgsl-analyzer.diagnostics.nagaValidation": true,
+	"wgsl-analyzer.diagnostics.nagaParsingErrors": false,
+	"wgsl-analyzer.diagnostics.nagaValidationErrors": true,
 	"wgsl-analyzer.diagnostics.nagaVersion": "0.22" // one of the supported versions or 'main'
 }
 ```
